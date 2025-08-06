@@ -29,9 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 3, suffix: "+", label: "Years of Experience" },
+  { value: 20, suffix: "+", label: "Satisfied Clients" },
+  { value: 10, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -94,10 +94,7 @@ const techStackImgs = [
     name: "React Developer",
     imgPath: "/images/logos/react.png",
   },
-  {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
+  
   {
     name: "Backend Developer",
     imgPath: "/images/logos/node.png",
@@ -119,12 +116,7 @@ const techStackIcons = [
     scale: 1,
     rotation: [0, 0, 0],
   },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
+  
   {
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
@@ -147,42 +139,49 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:
+      "Zakariae consistently delivered high-quality solutions during his time at Goaluin. His ability to translate business requirements into functional features helped us hit multiple key project milestones.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Full Stack Developer Intern",
+    date: "March 2024 – August 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built and maintained a restaurant management platform using Next.js, Prisma, and tRPC.",
+      "Implemented features like table reservation, menu editing, and customer dashboards.",
+      "Collaborated in a team of 8 developers to deliver on-time sprints and optimize backend queries.",
+      "Enhanced system scalability and usability with clean, efficient code.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review:
+      "Zakariae’s freelance work demonstrates impressive self-drive and real-world problem-solving skills. His SaaS platforms are well-structured, scalable, and user-focused.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Freelance Full Stack Developer",
+    date: "2022 – Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Built two complete SaaS platforms: Dental Management and Stock Management systems.",
+      "Used Next.js, Prisma, Supabase, and Tailwind CSS to develop responsive and performant apps.",
+      "Implemented features like income tracking, patient records, product and debt management.",
+      "Handled full project lifecycle: planning, development, testing, and deployment.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review:
+      "Zakariae impressed us with his quick learning curve and full-stack capabilities. His e-commerce solution was both technically sound and user-friendly.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Full Stack Intern – iTech Company",
+    date: "June 2023 – August 2023",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed a complete e-commerce website with product listing, filtering, and shopping cart features.",
+      "Built RESTful APIs using Node.js and MongoDB for secure product and order management.",
+      "Created an admin dashboard with role-based access and real-time order tracking.",
+      "Ensured a consistent user experience across all devices using Tailwind CSS and Material UI.",
     ],
   },
 ];
+
 
 const expLogos = [
   {
@@ -201,45 +200,45 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
+    name: "Hajar Mansouri",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Zakariae. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
+    name: "Anass Benali",
     mentions: "@wadewarren",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Zakariae was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
     imgPath: "/images/client3.png",
   },
   {
-    name: "Guy Hawkins",
+    name: "Mohammed Chakir ",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Zakariae was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Zakariae's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Zakariae is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
+    name: "Nadia Bouziane",
     mentions: "@marvinmckinney",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "Zakariae was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
-    name: "Floyd Miles",
+    name: "Youssef El Amrani",
     mentions: "@floydmiles",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Zakariae expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
     imgPath: "/images/client4.png",
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Zakariae was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
 ];
